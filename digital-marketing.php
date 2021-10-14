@@ -24,7 +24,7 @@
     <script src="Plugins/owlcarousel/jquery.min.js"></script>
     <script src="Plugins/owlcarousel/owl.carousel.js"></script>
 
-    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         
         
     </head>

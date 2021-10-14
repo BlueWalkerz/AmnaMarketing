@@ -4522,14 +4522,15 @@ textarea.form-control-lg {
 
 .container-about{
 
-  display: flex;
+  /* display: flex; */
  
 }
 
 .text-about
 {
-  width: 50%;
+   /* width: 50%; */
   font-size: 10px;
+  padding:10px;
 }
 .transitioncard { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
 .card {
@@ -11298,6 +11299,7 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
+  width: 100%;
 }
 
 p {
@@ -12296,9 +12298,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .project-media div{
   align-items: center;
- 
+ padding :0px;
   height: auto;
-
+margin: 10px;
 }
 
 .project-media div img

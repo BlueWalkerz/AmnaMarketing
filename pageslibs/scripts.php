@@ -1,5 +1,5 @@
 <script src="js/typed.js"></script>
-        <!-- <script>
+        <script>
             var typed = new Typed('.typed', {
             strings: [
                 'Our skill your advance', 
@@ -11,7 +11,12 @@
             backSpeed: 60,
             loop: true
             });
-        </script> -->
+        </script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 <script>
             $(document).ready(function() {
@@ -52,19 +57,4 @@ $(document).ready(function() {
 
 });
           </script>
-                <!-- <script>
-                    var typed5 = new Typed('.type', {
-                        strings: 
-                        '1 Some <i>strings</i> with', 
-                        '2 Some <strong>HTML</strong>', 
-                        '3 Chars &times; &copy;'
-                        ],
-                        typeSpeed: 60,
-                        backSpeed: 60,
-                        cursorChar: '_',
-                        shuffle: true,
-                        smartBackspace: false,
-                        loop: true
-                    });
-                        
-                </script> -->
+                

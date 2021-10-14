@@ -13,7 +13,7 @@
                 
             </div>
             
-                <!-- <div class="masthead-subheading"> Our Skill Your Advance!</div> -->
+                
                 <div class="masthead-heading text-uppercase"><span style="color:#f1c40f">Amna</span><br> Marketing <br> Agency</div>
                 <div class="sociallinksbar " >
 
