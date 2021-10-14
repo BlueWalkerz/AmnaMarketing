@@ -29,6 +29,24 @@
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">SERVICES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="index.php#services" class="text-gray-400 hover:text-gray-500">Web Development</a>
+          </li>
+          <li>
+            <a href="index.php#services" class="text-gray-400  hover:text-gray-500">Digital Marketing</a>
+          </li>
+          <li>
+            <a href="index.php#services" class="text-gray-400 hover:text-gray-500">Graphic Designing</a>
+          </li>
+          <li>
+            <a href="index.php#services" class="text-gray-400 hover:text-gray-500">Project Management</a>
+          </li>
+        </nav>
+      </div>
+      
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
         <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">PORTFOLIO</h2>
         <nav class="list-none mb-10">
           <li>
@@ -46,90 +64,24 @@
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">PORTFOLIO</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-400 hover:text-gray-500">First Link</a>
+            <a  href="index.php#portfolio" class="text-gray-400 hover:text-gray-500">Digital Marketing</a>
           </li>
           <li>
-            <a class="text-gray-400  hover:text-gray-500">Second Link</a>
+            <a href="index.php#portfolio" class="text-gray-400  hover:text-gray-500">Graphic Design</a>
           </li>
           <li>
-            <a class="text-gray-400 hover:text-gray-500">Third Link</a>
+            <a href="index.php#portfolio" class="text-gray-400 hover:text-gray-500">Website Development</a>
           </li>
           <li>
-            <a class="text-gray-400 hover:text-gray-500">Fourth Link</a>
+            <a class="text-gray-400 hover:text-gray-500">Digital Marketing</a>
           </li>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-100 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-400 hover:text-gray-500">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-400  hover:text-gray-500">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-400 hover:text-gray-500">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-400 hover:text-gray-500">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <!-- <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div> -->
+      
+    
     </div>
   </div>
             <div class="container">
