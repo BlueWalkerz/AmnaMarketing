@@ -155,7 +155,7 @@ include "pageslibs/header.php"
                         <div class="card_circle transitioncard" style="background: url('assets/img/graphdes/webdes.png') no-repeat center bottom;"></div>
                             <h2 class="transitioncard">Web Development </h2>
                             <p></br>Our Goal is to create such websites that would help your business grow. We create Websites to meet all your professional requirements.</p>
-                           
+                            <!-- <div class="cta-container transitioncard"><a href="#" class="cta">Call to action</a></div> -->
                             
                         </div>
 
@@ -296,7 +296,7 @@ include "pageslibs/header.php"
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 3-->
                         <div class="portfolio-item" data-aos="fade-left">
-                            <a class="portfolio-link"  data-bs-toggle="modal" href="#web-dev">
+                            <a class="portfolio-link"  data-bs-toggle="modal" href="#model-render">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -590,7 +590,7 @@ include "pageslibs/aboutamna.php"
             </div>
         </div>
 <!-- Portfolio item 1 modal popup WebDev-->
-<div class="portfolio-modal modal fade" id="web-dev" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="model-render" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content bg-dark">
                     <div class="close-modal" data-bs-dismiss="modal"><div class="close-modal" data-bs-dismiss="modal"><span class="closebtnt">&times;</span></div></div>
@@ -599,28 +599,28 @@ include "pageslibs/aboutamna.php"
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Website Development</h2>
-                                    <p class="item-intro text-muted">We build custom website for startups and corporates.</p>
+                                    <h2 class="text-uppercase">3D Modeling</h2>
+                                    <p class="item-intro text-muted">Customizing a model and rendering videos.</p>
                                     <div class="containerxf">
                                       <!-- Close the image -->
                                       <!-- <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span> -->
 
                                       <!-- Expanded image -->
-                                      <img id="webimg" style="width:100%">
+                                      <img id="modelingimgimg" style="width:100%">
 
                                       <!-- Image text -->
-                                      <div id="webtxt"></div>
+                                      <div id="modelingimgtxt"></div>
                                     </div>
 
                                     <div class="rowxf">
                                     <div class="columnxf">
-                                        <img src="assets/img/graphdes/modern-browser-mockup.png" alt="Car Plus" onclick="webdev(this);">
+                                        <img src="assets/img/graphdes/kitchen-model.jpg" alt="Car Plus" onclick="modelingimg(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/modern-browser-mockup (1).png" alt="Maxi" onclick="webdev(this);">
+                                        <img src="assets/img/graphdes/car-model.jpg" alt="Maxi" onclick="modelingimg(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/modern-browser-mockup (2).png" alt="LightUps" onclick="webdev(this);">
+                                        <img src="assets/img/graphdes/house-model.jpg" alt="LightUps" onclick="modelingimg(this);">
                                       </div>
                                       <!-- <div class="columnxf">
                                         <img src="assets/img/graphdes/modern-browser-mockup.png" alt="Lights" onclick="webdev(this);">
@@ -778,11 +778,11 @@ include "pageslibs/aboutamna.php"
         </script>
         <script>
             //Animated Video Making
-            function avideom(imgs) {
+            function modelingimg(imgs) {
               // Get the expanded image
-              var expandImg1 = document.getElementById("vidimg");
+              var expandImg1 = document.getElementById("modelingimgimg");
               // Get the image text
-              var imgText1 = document.getElementById("vidtxt");
+              var imgText1 = document.getElementById("modelingimgtxt");
               // Use the same src in the expanded image as the image being clicked on from the grid
               expandImg1.src = imgs.src;
               // Use the value of the alt attribute of the clickable image as text inside the expanded image
