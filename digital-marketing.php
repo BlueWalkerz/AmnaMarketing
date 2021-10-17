@@ -222,6 +222,9 @@ include "pageslibs/header2.php"
                                       <div class="columnxf">
                                         <img src="assets/img/graphdes/calender.png" alt="Lights" onclick="piczoom1(this);">
                                       </div>
+                                      <div class="columnxf">
+                                        <img src="assets/img/graphdes/calender.png" alt="Lights" onclick="piczoom1(this);">
+                                      </div>
                                     </div>
                                     <p>This is our recent Facebook reach, which appears to be pacing relatively faster as we’re emerging agency now and this all is because our team has worked for you while introducing different variations to your content creation.</p>
                                     <ul class="list-inline">
@@ -246,7 +249,7 @@ include "pageslibs/header2.php"
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 2 modal popup-->
+        <!-- Portfolio item Digital  popup-->
         <div class="portfolio-modal modal fade" id="instagram-portfolio" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content bg-dark">
@@ -382,21 +385,21 @@ include "pageslibs/header2.php"
         <?php
         include "pageslibs/scripts.php"
         ?>
+        
           <script>
-
-function piczoom1(imgs) {
-  // Get the expanded image
-  var expandImg1 = document.getElementById("expandedImg1");
-  // Get the image text
-  var imgText1 = document.getElementById("imgtext1");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg1.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText1.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
-  expandImg1.parentElement.style.display = "block";
-}
-</script>
+            function piczoom1(imgs) {
+              // Get the expanded image
+              var expandImg1 = document.getElementById("expandedImg1");
+              // Get the image text
+              var imgText1 = document.getElementById("imgtext1");
+              // Use the same src in the expanded image as the image being clicked on from the grid
+              expandImg1.src = imgs.src;
+              // Use the value of the alt attribute of the clickable image as text inside the expanded image
+              imgText1.innerHTML = imgs.alt;
+              // Show the container element (hidden with CSS)
+              expandImg1.parentElement.style.display = "block";
+            }
+          </script>
 <script>
 
 function piczoom2(imgs) {

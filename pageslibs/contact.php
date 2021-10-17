@@ -1,63 +1,50 @@
-<section class="page-section" id="contact">
+
+
+        <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase" data-aos="fade-right">Contact Us</h2>
+                    <h3 class="section-subheading text-muted" data-aos="fade-left">For Customized Marketing Plans. </h3>
                 </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN"  action="mailto:amnamarketingagency@gmail.com" method="POST" enctype="text/plain">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
+
+                <div class="row">
+
+                    <div class="contactamna-txt col-sm-12 col-lg-6">
+                        <div class="contact-about" data-aos="fade-right">
+                            <h1>
+                                <span style="color: #ffc800;">WANT TO SPEAK WITH US ? </span>
+                                <br>
+                                REACH US HERE !
+                            </h1>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
+
+                        <div class="contact-amna contact-call">
+                            <div class="contact-smheadsec" data-aos="fade-right"><h4><i class="material-icons" >whatsapp</i> Call Us</h4></div>
+                            <div class="contact-smtxtsec" data-aos="fade-left"><a target="_blank" href="https://wa.me/923303914554">+ 92 330 3914554</a></div>
+
                         </div>
+
+                        <div class="contact-amna contact-email">
+
+                            <div class="contact-smheadsec" data-aos="fade-right"><h4><i class="material-icons" >mail</i> Email</h4></div>
+                            <div class="contact-smtxtsec" data-aos="fade-left"> <a target="_blank" href="mailto:amnamarketingagency@gmail.com">amnamarketingagency@gmail.com</a></div>
+
+                        </div>
+
+                        <div class="contact-amna contact-visit">
+                            <div class="contact-smheadsec" data-aos="fade-right"><h4><i class="material-icons" >map</i> Visit Us</h4></div>
+                            <div class="contact-smtxtsec" data-aos="fade-left"> <a target="_blank" href="https://www.google.com/maps/place/Hajra+Iconic+Tower/@24.9142174,67.0733051,18.75z/data=!4m13!1m7!3m6!1s0x0:0x0!2zMjTCsDU0JzUxLjciTiA2N8KwMDQnMjUuNCJF!3b1!8m2!3d24.9143505!4d67.0737305!3m4!1s0x3eb33f09cc0e27e1:0xffe51ee6e4287e96!8m2!3d24.9138791!4d67.0740697?hl=en">Plot-C5 Yasinabad Near Gulshan-e-Iqbal 13-D, Karachi</a></div>
+
+                        </div>
+
+
+
+
                     </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
+                    <div class="contactamna-pic col-sm-12 col-lg-6"> <img src="assets\img\about\5.jpg" width="100%" alt=""></div>
+                </div>
             </div>
+               
+                
+                
         </section>

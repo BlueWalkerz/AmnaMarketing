@@ -7679,6 +7679,7 @@ textarea.form-control-lg {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  font-weight: bold;
 }
 
 .text-capitalize {
@@ -11725,9 +11726,10 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  /* background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: fill; */
 }
 section#contact .section-heading {
   color: #fff;
@@ -12305,4 +12307,37 @@ margin: 10px;
 {
 
 align-items: center;
+}
+
+.contactamna-txt .contact-about
+{
+  font-size: 40px;
+  font-weight: 560;
+}
+.contact-smheadsec:hover
+{
+  opacity:1;
+}
+.contact-smheadsec
+{
+  opacity:0.7;
+}
+
+.contact-smheadsec
+{
+  font-size: 25px;
+}
+.contact-smtxtsec
+{
+  font-size: 20px;
+}
+
+.contact-amna 
+{
+  padding: 20px;
+  opacity: 1;
+}
+.material-icons
+{
+  font-size: 30px;
 }
