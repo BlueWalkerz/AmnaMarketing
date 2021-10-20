@@ -1,4 +1,4 @@
-<section class="page-section bg-black" id="about">
+<section class="page-section bg-black col-12" id="about">
             <div class="container container-about row ">
                 <div class="text-about col-lg-3  col-sm-12" data-aos="fade-right">
                     <h2 class="section-heading text-uppercase">About<span  style="color:#f1c40f"> US</span></h2>

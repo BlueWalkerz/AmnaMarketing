@@ -12,32 +12,30 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://blueassociates.000webhostapp.com/BlueAssociates/AmnaMarketing/index.php">
+<meta property="og:url" content="https://https://www.amnamarketers.com/">
 <meta property="og:title" content="Amna Marketing Agency || Home">
 <meta property="og:description" content="We are a e-commerce based marketing agency providing you several services which includes project management where our team with their expertise help you superintend your project, moreover our work provides you with a swift and accessible digital market, we are always available regardless of time. Our goal is to present such platform that would help intensify and strengthen your business along digital marketing we are also here to assist you with web web development our expert team has command over such websites that would amaze you along with it all sort of graphic designing is also involved in services which covers video editing, flyers, cv and resumes with different yet elegant designs including all the customisation according to your demand.">
 <meta property="og:image" content="assets/img/portfolio/headfinal.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://blueassociates.000webhostapp.com/BlueAssociates/AmnaMarketing/index.php">
+<meta property="twitter:url" content="http://www.amnamarketers.com/">
 <meta property="twitter:title" content="Amna Marketing Agency || Home">
 <meta property="twitter:description" content="We are a e-commerce based marketing agency providing you several services which includes project management where our team with their expertise help you superintend your project, moreover our work provides you with a swift and accessible digital market, we are always available regardless of time. Our goal is to present such platform that would help intensify and strengthen your business along digital marketing we are also here to assist you with web web development our expert team has command over such websites that would amaze you along with it all sort of graphic designing is also involved in services which covers video editing, flyers, cv and resumes with different yet elegant designs including all the customisation according to your demand.">
 <meta property="twitter:image" content="assets/img/portfolio/headfinal.png">
 
 
 
+
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="Css/styles.css" rel="stylesheet" />
         
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="Css/styles2.css" rel="stylesheet" />
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        
+        <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> -->
 
         <!-- Owl Stylesheets -->
         <link rel="stylesheet" href="Plugins/owlcarousel/owl.carousel.min.css">
@@ -47,16 +45,17 @@
     <script src="Plugins/owlcarousel/owl.carousel.js"></script>
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        
+<!-- Font Awesome icons (free version)-->
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Core theme CSS (includes Bootstrap)-->
+   
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />   
+    
     </head>
     <body id="page-top">
 
-    <!-- Back to Top -->
-    <?php
-        include "pageslibs/back-to-top.php"
-        ?>
+   
         <!-- Navigation-->
         <?php
 include "pageslibs/navbar.php"
@@ -68,7 +67,7 @@ include "pageslibs/navbar.php"
 include "pageslibs/header.php"
 ?>
         <!-- How It Works -->
-        <section class="page-section bg-dark2" id="workings">
+        <section class="page-section bg-dark2">
 
         <div class="process bg-dark2">
             <div class="container">
@@ -153,7 +152,7 @@ include "pageslibs/header.php"
                         <!-- 1 -->
                         <div class="card transitioncard item ">
                         <div class="card_circle transitioncard" style="background: url('assets/img/graphdes/webdes.png') no-repeat center bottom;"></div>
-                            <h2 class="transitioncard">Web Development </h2>
+                            <h2 class="transitioncard">Website Development </h2>
                             <p></br>Our Goal is to create such websites that would help your business grow. We create Websites to meet all your professional requirements.</p>
                             <!-- <div class="cta-container transitioncard"><a href="#" class="cta">Call to action</a></div> -->
                             
@@ -233,21 +232,7 @@ include "pageslibs/header.php"
                     <h3 class="section-subheading text-muted"  data-aos="fade-left">Our Majestic Projects</h3>
                 </div>
                 <div class="row">
-                    <!-- <div class="col-lg-4 col-sm-6 mb-4" >
-                        
-                        <div class="portfolio-item "  data-aos="fade-right">
-                            <a class="portfolio-link" href="digital-marketing.php">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/digital.png" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Digital Marketing</div>
-                                <div class="portfolio-caption-subheading text-muted">Digital Marketing</div>
-                            </div>
-                        </div>
-                    </div> -->
+                    
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item " data-aos="fade-right">
@@ -367,12 +352,18 @@ include "pageslibs/header.php"
 include "pageslibs/aboutamna.php"
         ?>
         
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-ca98ff7a-b68b-4929-bce9-ff58c9531e81"></div>
+
         <!-- Contact-->
         <?php
             include "pageslibs/contact.php"
         ?>
+
+            <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
         <!-- Footer-->
         <?php
         include "pageslibs/footer.php"
@@ -389,10 +380,10 @@ include "pageslibs/aboutamna.php"
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Digital Marketing</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <p class="item-intro text-muted">Here are the results we produce through our digital marketing.</p>
                                     <div class="containerxf">
                                       <!-- Close the image -->
-                                      <!-- <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span> -->
+                                      <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span>
 
                                       <!-- Expanded image -->
                                       <img id="digitalimg" style="width:100%">
@@ -411,35 +402,33 @@ include "pageslibs/aboutamna.php"
                                       <div class="columnxf">
                                         <img src="assets/img/graphdes/insta-content-reach.png" alt="Instagram-Content-Reach" onclick="digitalmarketing(this);">
                                       </div>
+                                      
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/calender.png" alt="Calender" onclick="digitalmarketing(this);">
+                                        <img src="assets/img/graphdes/fb-likes.png" alt="Facebook-Page-Likes" onclick="digitalmarketing(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/fb-likes.png" alt="Nature" onclick="digitalmarketing(this);">
+                                        <img src="assets/img/graphdes/fb-page-reach.png" alt="Facebook-Page-Reach" onclick="digitalmarketing(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/fb-page-reach.png" alt="Snow" onclick="digitalmarketing(this);">
+                                        <img src="assets/img/graphdes/facebook-mobile-mockup2.png" alt="Facebook-Post" onclick="digitalmarketing(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/facebook-mobile-mockup2.png" alt="Mountains" onclick="digitalmarketing(this);">
+                                        <img src="assets/img/graphdes/calender.png" alt="Our-Posting-Schedule" onclick="digitalmarketing(this);">
                                       </div>
-                                      <div class="columnxf">
-                                        <img src="assets/img/graphdes/calender.png" alt="Lights" onclick="digitalmarketing(this);">
-                                      </div>
-                                      <div class="columnxf">
-                                        <img src="assets/img/graphdes/calender.png" alt="Lights" onclick="digitalmarketing(this);">
-                                      </div>
+                                      
                                     </div>
-                                    <p>This is our recent Instagram reach which is reflecting its high progress. The results proves that the strategy we implement results in a higher lead generation.</p>
+                                    <p>This is our recent Social Media reach which is reflecting its high progress. The results proves that the strategy we implement results in a higher lead generation.</p>
                                     <ul class="list-inline">
                                         <li>
-                                            <strong>Facebook:</strong>
+                                            <strong>Instagram:</strong>
                                             <a href="https://www.instagram.com/amnamarketing1/">Amna Marketing</a>
                                         </li>
-                                        <!-- <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li> -->
+                                        <li>
+                                            <strong>Facebook:</strong>
+                                            <a href="https://www.facebook.com/amnamarketing1">Amna Marketing</a>
+                                        </li>
+                                       
+                                       
                                     </ul>
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
@@ -467,7 +456,7 @@ include "pageslibs/aboutamna.php"
                                     <p class="item-intro text-muted">Cards, Banners, Standees and much more...</p>
                                     <div class="containerxf">
                                       <!-- Close the image -->
-                                      <!-- <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span> -->
+                                      <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span>
 
                                       <!-- Expanded image -->
                                       <img id="graphicimg" style="width:100%">
@@ -478,13 +467,13 @@ include "pageslibs/aboutamna.php"
 
                                     <div class="rowxf">
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/Us_Business_Card_Mockup_2.png" alt="Bussiness-Card1" onclick="graphicdesigning(this);">
+                                        <img src="assets/img/graphdes/Us_Business_Card_Mockup_2-min.png" alt="Bussiness-Card1" onclick="graphicdesigning(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/Us_Business_Card_Mockup_4.png" alt="Bussiness-Card2" onclick="graphicdesigning(this);">
+                                        <img src="assets/img/graphdes/Us_Business_Card_Mockup_4-min.png" alt="Bussiness-Card2" onclick="graphicdesigning(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/Us_Business_Card_Mockup_5.png" alt="Bussiness-Card3" onclick="graphicdesigning(this);">
+                                        <img src="assets/img/graphdes/Us_Business_Card_Mockup_5-min.png" alt="Bussiness-Card3" onclick="graphicdesigning(this);">
                                       </div>
                                       <div class="columnxf">
                                         <img src="assets/img/graphdes/facebook-mobile-mockup.png" alt="Facebook-Post1" onclick="graphicdesigning(this);">
@@ -498,21 +487,11 @@ include "pageslibs/aboutamna.php"
                                       <div class="columnxf">
                                         <img src="assets/img/graphdes/instagram-mobile-mockup2.png" alt="Instagram-Post2" onclick="graphicdesigning(this);">
                                       </div>
-                                      <!-- <div class="columnxf">
-                                        <img src="https://source.unsplash.com/user/erondu2/1600x900" alt="Lights" onclick="piczoom1(this);">
-                                      </div> -->
+                                     
                                     </div>
-                                    <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p> -->
+                                    
                                     <ul class="list-inline">
-                                        <!-- <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul> -->
+                                       
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -539,7 +518,7 @@ include "pageslibs/aboutamna.php"
                                     <p class="item-intro text-muted">We build custom website for startups and corporates.</p>
                                     <div class="containerxf">
                                       <!-- Close the image -->
-                                      <!-- <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span> -->
+                                      <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span>
 
                                       <!-- Expanded image -->
                                       <img id="webimg" style="width:100%">
@@ -558,25 +537,11 @@ include "pageslibs/aboutamna.php"
                                       <div class="columnxf">
                                         <img src="assets/img/graphdes/modern-browser-mockup (2).png" alt="LightUps" onclick="webdev(this);">
                                       </div>
-                                      <!-- <div class="columnxf">
-                                        <img src="assets/img/graphdes/modern-browser-mockup.png" alt="Lights" onclick="webdev(this);">
-                                      </div> -->
-                                      
-                                      <!-- <div class="columnxf">
-                                        <img src="https://source.unsplash.com/user/erondu2/1600x900" alt="Lights" onclick="piczoom1(this);">
-                                      </div> -->
+                                     
                                     </div>
-                                    <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p> -->
+                                   
                                     <ul class="list-inline">
-                                        <!-- <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul> -->
+                                       
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -603,7 +568,7 @@ include "pageslibs/aboutamna.php"
                                     <p class="item-intro text-muted">Customizing a model and rendering videos.</p>
                                     <div class="containerxf">
                                       <!-- Close the image -->
-                                      <!-- <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span> -->
+                                      <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span>
 
                                       <!-- Expanded image -->
                                       <img id="modelingimgimg" style="width:100%">
@@ -614,33 +579,19 @@ include "pageslibs/aboutamna.php"
 
                                     <div class="rowxf">
                                     <div class="columnxf">
-                                        <img src="assets/img/graphdes/kitchen-model.jpg" alt="Car Plus" onclick="modelingimg(this);">
+                                        <img src="assets/img/graphdes/kitchen-model.jpg" alt="Kitchen-Model" onclick="modelingimg(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/car-model.jpg" alt="Maxi" onclick="modelingimg(this);">
+                                        <img src="assets/img/graphdes/car-model.jpg" alt="Car-Model" onclick="modelingimg(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/house-model.jpg" alt="LightUps" onclick="modelingimg(this);">
+                                        <img src="assets/img/graphdes/house-model.jpg" alt="House-Model" onclick="modelingimg(this);">
                                       </div>
-                                      <!-- <div class="columnxf">
-                                        <img src="assets/img/graphdes/modern-browser-mockup.png" alt="Lights" onclick="webdev(this);">
-                                      </div> -->
                                       
-                                      <!-- <div class="columnxf">
-                                        <img src="https://source.unsplash.com/user/erondu2/1600x900" alt="Lights" onclick="piczoom1(this);">
-                                      </div> -->
                                     </div>
-                                    <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p> -->
+                                   
                                     <ul class="list-inline">
-                                        <!-- <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul> -->
+                                      
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -667,7 +618,7 @@ include "pageslibs/aboutamna.php"
                                     <p class="item-intro text-muted">Our trusted projects</p>
                                     <div class="containerxf">
                                       <!-- Close the image -->
-                                      <!-- <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span> -->
+                                      <span onclick="this.parentElement.style.display='none'" class="closebtnt">&times;</span>
 
                                       <!-- Expanded image -->
                                       <img id="estconsultimg" style="width:100%">
@@ -678,33 +629,23 @@ include "pageslibs/aboutamna.php"
 
                                     <div class="rowxf">
                                     <div class="columnxf">
-                                        <img src="assets/img/graphdes/trade-center.png" alt="Trade Center" onclick="estateconsultancy(this);">
+                                        <img src="assets/img/graphdes/trade-center-min.png" alt="Trade Center" onclick="estateconsultancy(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/bussiness-center.png" alt="Business Center" onclick="estateconsultancy(this);">
+                                        <img src="assets/img/graphdes/bussiness-center-min.png" alt="Business Center" onclick="estateconsultancy(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/hajra-comforts.png" alt="Hajra Comforts" onclick="estateconsultancy(this);">
+                                        <img src="assets/img/graphdes/hajra-comforts-min.png" alt="Hajra Comforts" onclick="estateconsultancy(this);">
                                       </div>
                                       <div class="columnxf">
-                                        <img src="assets/img/graphdes/hajra-villas.png" alt="Hajra Villas" onclick="estateconsultancy(this);">
+                                        <img src="assets/img/graphdes/hajra-villas-min.png" alt="Hajra Villas" onclick="estateconsultancy(this);">
                                       </div>
                                       
-                                      <!-- <div class="columnxf">
-                                        <img src="https://source.unsplash.com/user/erondu2/1600x900" alt="Lights" onclick="piczoom1(this);">
-                                      </div> -->
+                                      
                                     </div>
-                                    <!-- <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p> -->
+                                    
                                     <ul class="list-inline">
-                                        <!-- <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul> -->
+                                        
                                     
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -730,8 +671,39 @@ include "pageslibs/aboutamna.php"
         include "pageslibs/scripts.php"
         ?>
 
+    
+<!-- Messenger Chat Plugin Code -->
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "108764698173579");
+  chatbox.setAttribute("attribution", "biz_inbox");
 
-        <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v12.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+         <!-- Back to Top -->
+    <?php
+        include "pageslibs/back-to-top.php"
+        ?>
+
+<script>
+    function digitalmarketing(e){var t=document.getElementById("digitalimg"),n=document.getElementById("digitaltxt");t.src=e.src,n.innerHTML=e.alt,t.parentElement.style.display="block"}function graphicdesigning(e){var t=document.getElementById("graphicimg"),n=document.getElementById("graphictxt");t.src=e.src,n.innerHTML=e.alt,t.parentElement.style.display="block"}function webdev(e){var t=document.getElementById("webimg"),n=document.getElementById("webtxt");t.src=e.src,n.innerHTML=e.alt,t.parentElement.style.display="block"}function modelingimg(e){var t=document.getElementById("modelingimgimg"),n=document.getElementById("modelingimgtxt");t.src=e.src,n.innerHTML=e.alt,t.parentElement.style.display="block"}function estateconsultancy(e){var t=document.getElementById("estconsultimg"),n=document.getElementById("estconsulttxt");t.src=e.src,n.innerHTML=e.alt,t.parentElement.style.display="block"}
+</script>
+
+        <!-- <script>
             // Digital Marketing
             function digitalmarketing(imgs) {
               // Get the expanded image
@@ -746,66 +718,7 @@ include "pageslibs/aboutamna.php"
               expandImg1.parentElement.style.display = "block";
             }
         </script>
-        <script>
-            //Graphics Designing
-            function graphicdesigning(imgs) {
-              // Get the expanded image
-              var expandImg1 = document.getElementById("graphicimg");
-              // Get the image text
-              var imgText1 = document.getElementById("graphictxt");
-              // Use the same src in the expanded image as the image being clicked on from the grid
-              expandImg1.src = imgs.src;
-              // Use the value of the alt attribute of the clickable image as text inside the expanded image
-              imgText1.innerHTML = imgs.alt;
-              // Show the container element (hidden with CSS)
-              expandImg1.parentElement.style.display = "block";
-            }
-        </script>
-        <script>
-            //WebDevelopment
-            function webdev(imgs) {
-              // Get the expanded image
-              var expandImg1 = document.getElementById("webimg");
-              // Get the image text
-              var imgText1 = document.getElementById("webtxt");
-              // Use the same src in the expanded image as the image being clicked on from the grid
-              expandImg1.src = imgs.src;
-              // Use the value of the alt attribute of the clickable image as text inside the expanded image
-              imgText1.innerHTML = imgs.alt;
-              // Show the container element (hidden with CSS)
-              expandImg1.parentElement.style.display = "block";
-            }
-        </script>
-        <script>
-            //Animated Video Making
-            function modelingimg(imgs) {
-              // Get the expanded image
-              var expandImg1 = document.getElementById("modelingimgimg");
-              // Get the image text
-              var imgText1 = document.getElementById("modelingimgtxt");
-              // Use the same src in the expanded image as the image being clicked on from the grid
-              expandImg1.src = imgs.src;
-              // Use the value of the alt attribute of the clickable image as text inside the expanded image
-              imgText1.innerHTML = imgs.alt;
-              // Show the container element (hidden with CSS)
-              expandImg1.parentElement.style.display = "block";
-            }
-        </script>
-        <script>
-            //Real Estate Consultancy
-            function estateconsultancy(imgs) {
-              // Get the expanded image
-              var expandImg1 = document.getElementById("estconsultimg");
-              // Get the image text
-              var imgText1 = document.getElementById("estconsulttxt");
-              // Use the same src in the expanded image as the image being clicked on from the grid
-              expandImg1.src = imgs.src;
-              // Use the value of the alt attribute of the clickable image as text inside the expanded image
-              imgText1.innerHTML = imgs.alt;
-              // Show the container element (hidden with CSS)
-              expandImg1.parentElement.style.display = "block";
-            }
-        </script>
+         -->
                 
 
 
