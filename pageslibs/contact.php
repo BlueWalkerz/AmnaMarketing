@@ -47,7 +47,9 @@
 
 
                     </div>
-                    <div class="contactamna-pic col-sm-12 col-lg-6"> <img src="assets\img\about\5.jpg" width="100%" alt="" data-aos="fade-right"></div>
+                    <div class="contactamna-pic col-sm-12 col-lg-6">
+                        <img src="assets\img\about\5.jpg" width="100%" alt="" data-aos="fade-right">
+                    </div>
                 </div>
             </div>
                

@@ -12,14 +12,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://https://www.amnamarketers.com/">
+<meta property="og:url" content="https://www.amnamarketers.com/">
 <meta property="og:title" content="Amna Marketing Agency || Home">
 <meta property="og:description" content="We are a e-commerce based marketing agency providing you several services which includes project management where our team with their expertise help you superintend your project, moreover our work provides you with a swift and accessible digital market, we are always available regardless of time. Our goal is to present such platform that would help intensify and strengthen your business along digital marketing we are also here to assist you with web web development our expert team has command over such websites that would amaze you along with it all sort of graphic designing is also involved in services which covers video editing, flyers, cv and resumes with different yet elegant designs including all the customisation according to your demand.">
 <meta property="og:image" content="assets/img/portfolio/headfinal.png">
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="http://www.amnamarketers.com/">
+<meta property="twitter:card" content="Amna Marketing Agency">
+<meta property="twitter:url" content="https://www.amnamarketers.com/">
 <meta property="twitter:title" content="Amna Marketing Agency || Home">
 <meta property="twitter:description" content="We are a e-commerce based marketing agency providing you several services which includes project management where our team with their expertise help you superintend your project, moreover our work provides you with a swift and accessible digital market, we are always available regardless of time. Our goal is to present such platform that would help intensify and strengthen your business along digital marketing we are also here to assist you with web web development our expert team has command over such websites that would amaze you along with it all sort of graphic designing is also involved in services which covers video editing, flyers, cv and resumes with different yet elegant designs including all the customisation according to your demand.">
 <meta property="twitter:image" content="assets/img/portfolio/headfinal.png">
@@ -67,75 +67,75 @@ include "pageslibs/navbar.php"
 include "pageslibs/header.php"
 ?>
         <!-- How It Works -->
-        <section class="page-section bg-dark2">
+                <section class="page-section bg-dark2">
 
-        <div class="process bg-dark2">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-5 col-lg-4">
-                        <div class="text-center">
-                            <h3 class="section-subheadingz text-muted" data-aos="fade-right">Working Process</h3>
-                            <h2 class="section-heading text-uppercase" data-aos="fade-left">How It Works?</h2>
-                        </div>
-                    </div>
-                </div>
-                <section>
-                <div class="boxes justify-content-between">
-                    <div class="single-box" data-aos="fade-right">
-                        <div class="wrap">
-                            <div class="part-icon">
-                                <span><i class="flaticon-start"></i></span>
+                    <div class="process bg-dark2">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-5 col-lg-4">
+                                    <div class="text-center">
+                                        <h3 class="section-subheadingz text-muted" data-aos="fade-right">Working Process</h3>
+                                        <h2 class="section-heading text-uppercase" data-aos="fade-left">How It Works?</h2>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="part-txt">
-                                <h3>Market Research</h3>
+                            <section>
+                            <div class="boxes justify-content-between">
+                                <div class="single-box" data-aos="fade-right">
+                                    <div class="wrap">
+                                        <div class="part-icon">
+                                            <span><i class="flaticon-start"></i></span>
+                                        </div>
+                                        <div class="part-txt">
+                                            <h3>Market Research</h3>
+                                        </div>
+                                    </div>
+                                    <div class="arrow">
+                                        <img src="assets/img/icons/arrow.png" alt="arrow">
+                                    </div>
+                                </div>
+                                <div class="single-box top" data-aos="zoom-in-up">
+                                    <div class="wrap">
+                                        <div class="part-txt">
+                                            <h3>Design &amp; Review</h3>
+                                        </div>
+                                        <div class="part-icon">
+                                            <span><i class="flaticon-resume"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="arrow rotate">
+                                        <img src="assets/img/icons/arrow.png" alt="arrow">
+                                    </div>
+                                </div>
+                                <div class="single-box" data-aos="zoom-in-up">
+                                    <div class="wrap">
+                                        <div class="part-icon">
+                                            <span><i class="flaticon-digital-marketing"></i></span>
+                                        </div>
+                                        <div class="part-txt">
+                                            <h3>Development</h3>
+                                        </div>
+                                    </div>
+                                    <div class="arrow">
+                                        <img src="assets/img/icons/arrow.png" alt="arrow">
+                                    </div>
+                                </div>
+                                <div class="single-box top" data-aos="fade-left">
+                                    <div class="wrap">
+                                        <div class="part-txt">
+                                            <h3>Launch Project</h3>
+                                        </div>
+                                    <div class="part-icon">
+                                        <span><i class="flaticon-analytics"></i></span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="assets/img/icons/arrow.png" alt="arrow">
-                        </div>
-                    </div>
-                    <div class="single-box top" data-aos="zoom-in-up">
-                        <div class="wrap">
-                            <div class="part-txt">
-                                <h3>Design &amp; Review</h3>
-                            </div>
-                            <div class="part-icon">
-                                <span><i class="flaticon-resume"></i></span>
-                            </div>
-                        </div>
-                        <div class="arrow rotate">
-                            <img src="assets/img/icons/arrow.png" alt="arrow">
-                        </div>
-                    </div>
-                    <div class="single-box" data-aos="zoom-in-up">
-                        <div class="wrap">
-                            <div class="part-icon">
-                                <span><i class="flaticon-digital-marketing"></i></span>
-                            </div>
-                            <div class="part-txt">
-                                <h3>Development</h3>
-                            </div>
-                        </div>
-                        <div class="arrow">
-                            <img src="assets/img/icons/arrow.png" alt="arrow">
-                        </div>
-                    </div>
-                    <div class="single-box top" data-aos="fade-left">
-                        <div class="wrap">
-                            <div class="part-txt">
-                                <h3>Launch Project</h3>
-                            </div>
-                        <div class="part-icon">
-                            <span><i class="flaticon-analytics"></i></span>
-                        </div>
-                    </div>
-                </div>
                 </section>
             </div>
-        </div>
+        </div> 
    
 
-        </section>
+         </section>
         
         <!-- Services-->
         <section class="page-section bg-dark2" id="services">
@@ -362,8 +362,7 @@ include "pageslibs/aboutamna.php"
     <div id="fb-root"></div>
 
 <!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+<div id="fb-customer-chat" class="fb-customerchat"></div>
         <!-- Footer-->
         <?php
         include "pageslibs/footer.php"
@@ -674,24 +673,7 @@ include "pageslibs/aboutamna.php"
     
 <!-- Messenger Chat Plugin Code -->
 <script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "108764698173579");
-  chatbox.setAttribute("attribution", "biz_inbox");
-
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v12.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
+var chatbox=document.getElementById("fb-customer-chat");chatbox.setAttribute("page_id","108764698173579"),chatbox.setAttribute("attribution","biz_inbox"),window.fbAsyncInit=function(){FB.init({xfbml:!0,version:"v12.0"})},function(t,e,n){var o,c=t.getElementsByTagName(e)[0];t.getElementById(n)||((o=t.createElement(e)).id=n,o.src="https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",c.parentNode.insertBefore(o,c))}(document,"script","facebook-jssdk");
 </script>
 
          <!-- Back to Top -->

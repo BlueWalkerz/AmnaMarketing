@@ -1,6 +1,6 @@
-<div class="py-5 bg-dark2">
+        <div class="py-5 bg-dark2">
             <div class="container page-section">
-            <div class="text-center">
+                <div class="text-center">
                     <h2 class="section-heading text-uppercase"  data-aos="fade-right">Our Clients</h2>
                     <h3 class="section-subheading text-muted"  data-aos="fade-left"></h3>
                 </div>
